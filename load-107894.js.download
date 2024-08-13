@@ -1,0 +1,8 @@
+;(function () {
+    var pageUrl = encodeURIComponent(window.top.location.href);
+    var e = document.createElement('script');
+    e.type = 'text/javascript';
+    e.src = 'https://hhkld.com/tag/load-107894.js?page_url='+pageUrl;
+    e.async = true;
+    window.top.document.head.append(e);
+})()
